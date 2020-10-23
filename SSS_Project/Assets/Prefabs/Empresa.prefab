@@ -228,7 +228,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba9bb5f960bf1a64a9503ca55c794ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dinero: 2000
+  Dinero: 200
+  Productos: 10
+  valorProducto: 15
+  sueldo: 20
+  cantidadProduccion: 3
+  puedoContratar: 1
+  cantMaxEmpleados: 3
+  empleados: []
 --- !u!1 &8461093763184141269
 GameObject:
   m_ObjectHideFlags: 0

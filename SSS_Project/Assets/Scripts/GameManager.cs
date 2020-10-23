@@ -12,6 +12,9 @@ public class GameManager : MonoBehaviour
     public Text textoDineroTotalEnIndividuos;
     public Text textoDineroTotalEnEmpresas;
     public Text textoDineroEstatal;
+
+    public Text textTotalProductosEnPempresas;
+    public Text textTotalProductosEnIndividuos;
     
     private int _segundos = 0;
     
@@ -29,6 +32,9 @@ public class GameManager : MonoBehaviour
         textoDineroTotalEnIndividuos.text = "" + IndividuoManager.sharedInstance.GetSumaDineroIndividuos();
         textoDineroTotalEnEmpresas.text = "" + EmpresaManager.sharedInstance.GetSumaDineroEmpresas();
         textoDineroEstatal.text = "" + EstadoManager.sharedInstance.GetReservaEstatal();
+
+        textTotalProductosEnPempresas.text = "" + EmpresaManager.sharedInstance.GetSumaProductosEmpresas();
+        textTotalProductosEnIndividuos.text = "" + IndividuoManager.sharedInstance.GetSumaProductosIndividuos();
         
         IndividuoManager.sharedInstance.ActualizarEstadoDeIndividuos();
         EmpresaManager.sharedInstance.ActualizarEstadoDeEmpresas();

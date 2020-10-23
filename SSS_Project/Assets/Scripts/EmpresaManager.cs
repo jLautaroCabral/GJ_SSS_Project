@@ -45,7 +45,17 @@ public class EmpresaManager : MonoBehaviour
         }
         return total;
     }
-
+    
+    public int GetSumaProductosEmpresas()
+    {
+        int total = 0;
+        foreach (Empresa empresa in Empresas)
+        {
+            total += empresa.Productos;
+        }
+        return total;
+    }
+    
     public GameObject[] GetEmpresas()
     {
         return EmpresasEnEscena;

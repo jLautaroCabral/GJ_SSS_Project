@@ -6,10 +6,13 @@ using Random = UnityEngine.Random;
 
 public class Individuo : MonoBehaviour
 {
+    public string Nombre;
+    public string Apellido;
     public int Dinero = 10;
     public int Productos = 10;
     public bool Empleado;
-    
+
+    public bool buscandoEmpleo;
     [SerializeField]
     private bool TareaEnProgreso = false;
     
@@ -22,9 +25,28 @@ public class Individuo : MonoBehaviour
         _alma = this.gameObject.GetComponent<Alma>();
     }
 
+    public void consumirProducto()
+    {
+        if (Productos != 0)
+        {
+            Productos--;
+        }
+        else
+        {
+            bool seCompro = IrAComprar(3);
+            if (!seCompro)
+            {
+                IrAComprar();
+            }
+        }
+    }
+    
     public void ActualizarEstado()
     {
+        
         _alma.ActualizarEstado();
+        consumirProducto();
+        
         if (!TareaEnProgreso)
         {
             CalcularSiguienteTarea();
@@ -33,46 +55,40 @@ public class Individuo : MonoBehaviour
 
     private void CalcularSiguienteTarea()
     {
-        if (!Empleado)
+        CalcularSiBuscarTrabajo();
+        
+        if (Empleado && !TareaEnProgreso)
+        {
+            IrAlTrabajo();
+        }
+        
+    }
+
+    public void CalcularSiBuscarTrabajo()
+    {
+        if (!Empleado && buscandoEmpleo)
         {
             BuscarTrabajo();
         }
-
-        if (Dinero >= 15)
-        {
-            IrAComprar();
-        }
-            
-    }
-
-    public void IrAComprar()
-    {
-        TareaEnProgreso = true;
-        Debug.Log("Yendo a comprar");
-
-        GameObject[] empresasDisponibles = EmpresaManager.sharedInstance.GetEmpresas();
-
-        empresaTarget = empresasDisponibles[Random.Range(0, empresasDisponibles.Length - 1)].GetComponent<Empresa>();
-        
-        ComprarProducto(empresaTarget);
     }
     
-    public void ComprarProducto(Empresa empresa)
-    {
-        TareaEnProgreso = true;
-        Debug.Log("Yendo a comprar un producto");
-    }
-
     public void Trabajar(Empresa empresa)
     {
-        TareaEnProgreso = true;
-        Debug.Log("Yendo a comprar un producto");
+        _lugarTrabajoActual.ProducirProducto(this.gameObject.GetComponent<Individuo>());
+        TareaEnProgreso = false;
     }
 
+    public void IrAlTrabajo()
+    {
+        TareaEnProgreso = true;
+
+        Trabajar(_lugarTrabajoActual);
+    }
+    
     public void BuscarTrabajo()
     {
         TareaEnProgreso = true;
-        Debug.Log("Buscando trabajo");
+        Notificar("Buscando trabajo");
 
         GameObject[] empresasDisponibles = EmpresaManager.sharedInstance.GetEmpresas();
 
@@ -83,11 +99,10 @@ public class Individuo : MonoBehaviour
 
     public void IntentarSerContratado()
     {
-        Debug.Log("Encontré una empresa!");
+        // Debug.Log("Encontré una empresa!");
         bool resultado = empresaTarget.ContratarEmpleado(this.gameObject.GetComponent<Individuo>());
         if (resultado)
         {
-            Debug.Log("Me contrataron!!!");
             _lugarTrabajoActual = empresaTarget;
             empresaTarget = null;
             TareaEnProgreso = false;
@@ -95,15 +110,50 @@ public class Individuo : MonoBehaviour
         }
         else
         {
-            Debug.Log("No me contrataron :(");
+            Notificar("No me contrataron :(");
             _alma._intentosConseguirEmpleo++;
             BuscarTrabajo();
         }
         
     }
+    
+    public bool IrAComprar(int cantidad = 1)
+    {
+        TareaEnProgreso = true;
+
+        GameObject[] empresasDisponibles = EmpresaManager.sharedInstance.GetEmpresas();
+
+        empresaTarget = empresasDisponibles[Random.Range(0, empresasDisponibles.Length - 1)].GetComponent<Empresa>();
+        
+        return ComprarProducto(empresaTarget, cantidad);
+    }
+    
+    public bool ComprarProducto(Empresa empresa, int cantidad)
+    {
+        //Debug.Log("Comprando producto");
+        
+        bool resultado = empresaTarget.VenderProducto(this.gameObject.GetComponent<Individuo>(), cantidad);
+        if (resultado)
+        {
+            Notificar("He comprado mi producto!");
+            TareaEnProgreso = false;
+        }
+        else
+        {
+            Notificar("No pude comprar mi producto!");
+        }
+        
+        return resultado;
+    }
+    
+    public void Notificar(string msg)
+    {
+        Debug.Log(Nombre + ": " + msg);
+    } 
     public void ReclamarAlEstado()
     {
         TareaEnProgreso = true;
-        Debug.Log("Reclamando al estado");
+        Notificar("Reclamando al estado");
     }
+
 }

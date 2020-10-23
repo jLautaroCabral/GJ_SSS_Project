@@ -19,7 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="730b5351-a028-435b-9e89-76405ecf6618" name="Default Changelist" comment="" />
+    <list default="true" id="730b5351-a028-435b-9e89-76405ecf6618" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SSS_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SSS_Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Empresa.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Empresa.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Individuo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Individuo.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Empresa.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Empresa.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmpresaManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmpresaManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EstadoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EstadoManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Individuo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Individuo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IndividuoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IndividuoManager.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,18 +50,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Necesidades.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IndividuoManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EstadoManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RotateTo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RotateToCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gesto.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Necesidad.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EmpresaManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Empresa.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Estado.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Alma.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EstadoManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IndividuoManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EmpresaManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Individuo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Empresa.cs" />
       </list>
     </option>
   </component>
@@ -103,9 +114,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603339542420">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603381885748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603339542420" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603381885748" />
   </component>
 </project>

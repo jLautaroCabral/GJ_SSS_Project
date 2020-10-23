@@ -46,6 +46,16 @@ public class IndividuoManager : MonoBehaviour
         }
         return total;
     }
+    
+    public int GetSumaProductosIndividuos()
+    {
+        int total = 0;
+        foreach (Individuo individuo in Individuos)
+        {
+            total += individuo.Productos;
+        }
+        return total;
+    }
 
     
 }

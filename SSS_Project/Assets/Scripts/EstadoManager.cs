@@ -24,7 +24,7 @@ public class EstadoManager : MonoBehaviour
         _estado.ActualizarEstado();
     }
 
-    public int GetReservaEstatal()
+    public int GetReservaEstatal()             
     {
         return _estado.Dinero;
     }

@@ -103,7 +103,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnPointGesto
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -305,9 +305,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8718fccb8eb0e904898cb0ab39b0ba05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dinero: 10
-  Productos: 10
+  Dinero: 30
+  Productos: 3
   Empleado: 0
+  TareaEnProgreso: 0
 --- !u!114 &5776574243669314507
 MonoBehaviour:
   m_ObjectHideFlags: 0
