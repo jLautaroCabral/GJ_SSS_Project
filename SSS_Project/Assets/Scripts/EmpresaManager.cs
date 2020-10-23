@@ -7,7 +7,7 @@ public class EmpresaManager : MonoBehaviour
     public static EmpresaManager sharedInstance;
     
     private GameObject[] EmpresasEnEscena;
-    private List<Empresa> Empresas = new List<Empresa>();
+    public List<Empresa> Empresas = new List<Empresa>();
     // Start is called before the first frame update
     void Start()
     {
@@ -60,4 +60,5 @@ public class EmpresaManager : MonoBehaviour
     {
         return EmpresasEnEscena;
     }
+    
 }

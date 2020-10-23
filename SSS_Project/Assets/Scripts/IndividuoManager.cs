@@ -56,6 +56,6 @@ public class IndividuoManager : MonoBehaviour
         }
         return total;
     }
-
+    
     
 }

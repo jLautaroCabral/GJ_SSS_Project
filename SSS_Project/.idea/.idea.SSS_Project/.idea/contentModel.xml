@@ -16,6 +16,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Alma.cs" t="Include" />
+          <e p="Casa.cs" t="Include" />
           <e p="Empresa.cs" t="Include" />
           <e p="EmpresaManager.cs" t="Include" />
           <e p="Estado.cs" t="Include" />

@@ -20,7 +20,7 @@ public class Individuo : MonoBehaviour
     [SerializeField]
     private int pilaDeTareas = 0;
     
-    private Alma _alma;
+    public Alma _alma;
     private Empresa _lugarTrabajoActual;
     private Empresa empresaTarget = null;
 
@@ -146,17 +146,30 @@ public class Individuo : MonoBehaviour
         yendoATarea = true;
 
         GameObject[] empresasDisponibles = EmpresaManager.sharedInstance.GetEmpresas();
-
+        int suppCont = 0;
+        bool noEncontreEmpresaParaComprar = false;
         while (true)
         {
+            suppCont++;
             empresaTarget = empresasDisponibles[Random.Range(0, empresasDisponibles.Length)]
                 .GetComponent<Empresa>();
             if (empresaTarget != _lugarTrabajoActual)
             {
                 break;
-            }  
+            }
+
+            if (suppCont > 13)
+            {
+                noEncontreEmpresaParaComprar = true;
+                break;
+            }
         }
 
+        if (noEncontreEmpresaParaComprar)
+        {
+            return;
+        }
+        
         _agent.SetDestination(empresaTarget.entrada.position);
     }
     

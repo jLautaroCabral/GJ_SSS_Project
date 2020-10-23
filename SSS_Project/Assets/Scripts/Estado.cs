@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Estado : MonoBehaviour
 {
-    public int Dinero = 0;
+    public int Dinero = 200;
 
     public void ActualizarEstado()
     {

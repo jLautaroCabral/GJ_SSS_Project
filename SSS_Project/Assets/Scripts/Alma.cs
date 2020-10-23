@@ -13,7 +13,7 @@ public class Alma : MonoBehaviour
     
     private int felicidadBase = 10;
     [SerializeField]
-    private int _felicidadTotal;
+    public int _felicidadTotal;
 
     private void Awake()
     {

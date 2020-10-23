@@ -40,9 +40,9 @@ public class MoverCamara : MonoBehaviour
         }
         
         transform.position = new Vector3(
-                Mathf.Clamp(transform.position.x, startPosition.z - limites, startPosition.x + limites),
+                Mathf.Clamp(transform.position.x, startPosition.x - limites, startPosition.x + limites),
                 transform.position.y,
-                Mathf.Clamp(transform.position.z, startPosition.z - limites, startPosition.x + limites)
+                Mathf.Clamp(transform.position.z, startPosition.z - limites, startPosition.z + limites)
             );
     }
 }

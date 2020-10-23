@@ -15,6 +15,9 @@ public class GameManager : MonoBehaviour
 
     public Text textTotalProductosEnPempresas;
     public Text textTotalProductosEnIndividuos;
+
+    public GameObject panelGanaste;
+    public GameObject panelPerdiste;
     
     private int _segundos = 0;
     
@@ -25,12 +28,36 @@ public class GameManager : MonoBehaviour
             sharedInstance = this;
         }
         startTimer();
+
+        ParcelaManager.sharedInstance.CrearEmpresaRandom();
+        ParcelaManager.sharedInstance.CrearEmpresaRandom();
+        ParcelaManager.sharedInstance.CrearEmpresaRandom();
+    }
+
+    public void RevisarSiPerdiste()
+    {
+        List<Individuo> indiv = IndividuoManager.sharedInstance.Individuos;
+        int felicidadTotal = 0;
+        int contador;
+        foreach (var i in indiv)
+        {
+            felicidadTotal += i._alma._felicidadTotal;
+        }
+
+        contador = felicidadTotal / indiv.Count;
+
+        if (contador < 8)
+        {
+            Perdiste();
+        }
     }
     
     public void ActualizarGameState()
     {
-        textoDineroTotalEnIndividuos.text = "" + IndividuoManager.sharedInstance.GetSumaDineroIndividuos();
-        textoDineroTotalEnEmpresas.text = "" + EmpresaManager.sharedInstance.GetSumaDineroEmpresas();
+        int dineroTotalInd = IndividuoManager.sharedInstance.GetSumaDineroIndividuos();
+        int dineroTotalEmp = EmpresaManager.sharedInstance.GetSumaDineroEmpresas();
+        textoDineroTotalEnIndividuos.text = "" + dineroTotalInd;
+        textoDineroTotalEnEmpresas.text = "" + dineroTotalEmp;
         textoDineroEstatal.text = "" + EstadoManager.sharedInstance.GetReservaEstatal();
 
         textTotalProductosEnPempresas.text = "" + EmpresaManager.sharedInstance.GetSumaProductosEmpresas();
@@ -39,7 +66,23 @@ public class GameManager : MonoBehaviour
         IndividuoManager.sharedInstance.ActualizarEstadoDeIndividuos();
         EmpresaManager.sharedInstance.ActualizarEstadoDeEmpresas();
         EstadoManager.sharedInstance.ActualizarEstadoDelEstado();
-        ParcelaManager.sharedInstance.CrearEmpresaRandom();
+
+        if (dineroTotalEmp > 10000 && dineroTotalInd > 2000)
+        {
+            Ganaste();
+        }
+
+        RevisarSiPerdiste();
+    }
+
+    public void Ganaste()
+    {
+        panelGanaste.SetActive(true);
+    }
+
+    public void Perdiste()
+    {
+        panelPerdiste.SetActive(true);
     }
 
     #region Timer

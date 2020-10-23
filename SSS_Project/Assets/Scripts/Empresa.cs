@@ -31,6 +31,16 @@ public class Empresa : MonoBehaviour
     {
         contadorActualizacion++;
         ActualizarConfiguracion();
+        EvaluarSiInvertit();
+    }
+
+    public void EvaluarSiInvertit()
+    {
+        if (Dinero > 500 && contadorDesabastecimiento <= 1)
+        {
+            ParcelaManager.sharedInstance.CrearEmpresaRandom();
+            Dinero -= 400;
+        }
     }
 
     private void Start()

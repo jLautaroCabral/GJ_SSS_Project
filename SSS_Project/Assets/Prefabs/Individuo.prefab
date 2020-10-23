@@ -137,7 +137,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1769191162
 Transform:
   m_ObjectHideFlags: 0
@@ -316,6 +316,7 @@ MonoBehaviour:
   buscandoEmpleo: 1
   comprando: 0
   pilaDeTareas: 0
+  _alma: {fileID: 0}
   _agent: {fileID: 666369674}
 --- !u!114 &5776574243669314507
 MonoBehaviour:

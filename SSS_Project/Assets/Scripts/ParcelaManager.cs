@@ -6,6 +6,7 @@ public class ParcelaManager : MonoBehaviour
 {
     public static ParcelaManager sharedInstance;
     
+    public Transform[] spawnPointCasas;
     public GameObject[] ParcelasEscena;
     public List<Parcela> Parcelas = new List<Parcela>();
     
@@ -31,6 +32,15 @@ public class ParcelaManager : MonoBehaviour
 
     public void CrearEmpresaRandom()
     {
-        Parcelas[Random.Range(0, Parcelas.Count)].CrearEmpresa();
+        Parcela parcela;
+        do
+        {
+            parcela = Parcelas[Random.Range(0, Parcelas.Count)];
+            
+        } while (parcela.yaUsada);
+        
+        parcela.CrearEmpresa();
     }
+    
+    
 }
