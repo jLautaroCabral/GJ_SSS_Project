@@ -20,16 +20,111 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="730b5351-a028-435b-9e89-76405ecf6618" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Arbol.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Arbol.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Casa Gobierno.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Casa Gobierno.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Casa.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Casa.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Empresa1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Empresa1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Empresa2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Empresa2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Empresa3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Empresa3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Empresa3B.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Empresa3B.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Fabrica1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Fabrica1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Fabrica2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Fabrica2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/FabricaConPorton.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/FabricaConPorton.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Individuo.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Individuo.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Luminaria.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Luminaria.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Pino.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Prefabs General/Pino.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Scripts/CicloDiayNoche.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Scripts/CicloDiayNoche.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Scripts/MoverCamara.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Scripts/MoverCamara.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Scripts/Patrullar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Scripts/Patrullar.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Scripts/Rayo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Scripts/Rayo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Sonidos.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Sonidos/Individuo_Saluda.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Sonidos/Individuo_Saluda.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Sonidos/Pop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Sonidos/Pop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Sonidos/WOP.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Sonidos/WOP.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Sprites/Caritas.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Sprites/Caritas.PNG.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Sprites/SF Button.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Sprites/SF Button.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Sprites/SF Generic.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Sprites/SF Generic.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Sprites/SF Title.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Sprites/SF Title.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Arbol.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Arbol.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Casa Gobierno.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Casa Gobierno.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Casa.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Casa.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Empresa.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Empresa.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Empresa2.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Empresa2.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Empresa3.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Empresa3.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Empresa3B.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Empresa3B.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Fabrica1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Fabrica1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Fabrica2.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Fabrica2.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/FabricaConPorton.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/FabricaConPorton.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Individuo.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Individuo.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Luminaria.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Luminaria.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Pino.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modelos/Pino.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Empresa A.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Empresa B.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Empresa B.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Parcela.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Parcela.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SampleNavScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SampleNavScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Caras.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Caras.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SSS_Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SSS_Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SSS_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SSS_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Empresa.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Empresa.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Empresa.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Empresa.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Empresa A.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gesto.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gesto.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GestoFeliz.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GestoFeliz.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GestoNormal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GestoNormal.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Individuo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Individuo.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Alma.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Alma.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Empresa.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Empresa.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmpresaManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmpresaManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EstadoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EstadoManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Individuo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Individuo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IndividuoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IndividuoManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +137,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IndividuoManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Necesidad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SampleNavScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gesto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parcela.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Alma.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParcelaManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -55,13 +153,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Gesto.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Necesidad.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Estado.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Alma.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EstadoManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IndividuoManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EmpresaManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Individuo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Alma.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SampleNavScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Empresa.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Individuo.cs" />
+        <option value="$PROJECT_DIR$/Assets/AssetsLeandro/Scripts/MoverCamara.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ParcelaManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Parcela.cs" />
       </list>
     </option>
   </component>
@@ -114,6 +216,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog" timestamp="1603458574968">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1603458574968" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603381885748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

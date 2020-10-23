@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
         IndividuoManager.sharedInstance.ActualizarEstadoDeIndividuos();
         EmpresaManager.sharedInstance.ActualizarEstadoDeEmpresas();
         EstadoManager.sharedInstance.ActualizarEstadoDelEstado();
+        ParcelaManager.sharedInstance.CrearEmpresaRandom();
     }
 
     #region Timer

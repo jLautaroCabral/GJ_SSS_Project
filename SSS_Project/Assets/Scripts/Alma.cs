@@ -9,7 +9,7 @@ public class Alma : MonoBehaviour
     public Transform spawnPointGesto;
     
     public int _intentosConseguirEmpleo = 0;
-    public int _limiteIntentos;
+    public int _limiteIntentos = 5;
     
     private int felicidadBase = 10;
     [SerializeField]

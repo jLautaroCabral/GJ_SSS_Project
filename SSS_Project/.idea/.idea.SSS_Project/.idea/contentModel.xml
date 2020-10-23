@@ -6,6 +6,14 @@
     <e p="C:\Users\Lautaro\Desktop\GameJams\SSS_Project\SSS_Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AssetsLeandro" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="CicloDiayNoche.cs" t="Include" />
+            <e p="MoverCamara.cs" t="Include" />
+            <e p="Patrullar.cs" t="Include" />
+            <e p="Rayo.cs" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Alma.cs" t="Include" />
           <e p="Empresa.cs" t="Include" />
@@ -17,7 +25,10 @@
           <e p="Individuo.cs" t="Include" />
           <e p="IndividuoManager.cs" t="Include" />
           <e p="Necesidad.cs" t="Include" />
+          <e p="Parcela.cs" t="Include" />
+          <e p="ParcelaManager.cs" t="Include" />
           <e p="RotateToCamera.cs" t="Include" />
+          <e p="SampleNavScript.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
