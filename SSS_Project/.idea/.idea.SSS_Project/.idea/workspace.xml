@@ -20,43 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="730b5351-a028-435b-9e89-76405ecf6618" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Anim/Empresa A.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Anim/Empresa A.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Anim/emA.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Anim/emA.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Arbol 2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Arbol 2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Casa.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Casa.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Edificio nuevo.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Edificio nuevo.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/La Economia Va Bien.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/La Economia Va Bien.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Monedas.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Monedas.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Pop.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Pop.wav.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SSS_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SSS_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetsLeandro/Scripts/MoverCamara.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetsLeandro/Scripts/MoverCamara.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Empresa A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Empresa A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Empresa B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Empresa B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Estado.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Estado.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Individuo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Individuo.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Alma.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Alma.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Empresa.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Empresa.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmpresaManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmpresaManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Estado.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Estado.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EstadoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EstadoManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Individuo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Individuo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IndividuoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IndividuoManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Parcela.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Parcela.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ParcelaManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ParcelaManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,8 +60,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Alma.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EmpresaManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Estado.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EstadoManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Casa.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -110,6 +77,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../SSS_Project\SSS_Project.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Lautaro\Desktop\GameJams\SSS_Project" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />

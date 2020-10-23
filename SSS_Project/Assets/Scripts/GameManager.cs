@@ -21,17 +21,17 @@ public class GameManager : MonoBehaviour
     
     private int _segundos = 0;
     
+
     private void Start()
     {
+        ParcelaManager.sharedInstance.CrearEmpresaRandom();
+        ParcelaManager.sharedInstance.CrearEmpresaRandom();
+        ParcelaManager.sharedInstance.CrearEmpresaRandom();
         if (sharedInstance == null)
         {
             sharedInstance = this;
         }
         startTimer();
-
-        ParcelaManager.sharedInstance.CrearEmpresaRandom();
-        ParcelaManager.sharedInstance.CrearEmpresaRandom();
-        ParcelaManager.sharedInstance.CrearEmpresaRandom();
     }
 
     public void RevisarSiPerdiste()

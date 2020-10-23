@@ -16,14 +16,19 @@ public class Parcela : MonoBehaviour
      public bool yaUsada = false;
 
 
-     private void Start()
+     private void Awake()
      {
          empresa = posiblesEmpresas[Random.Range(0, posiblesEmpresas.Length)];
          empresaSpawn = new Vector3(
              this.transform.position.x,
              this.transform.position.y - 0,
              this.transform.position.z
-             );
+         );
+     }
+
+     private void Start()
+     {
+         
      }
      
     
